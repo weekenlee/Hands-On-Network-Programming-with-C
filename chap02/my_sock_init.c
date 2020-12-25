@@ -28,7 +28,7 @@ int main() {
         }
     #endif
 
-        printf("ready to use socket API. \n");
+    printf("ready to use socket API. \n");
 
     #if defined(_WIN32)
             WSACleanup();
